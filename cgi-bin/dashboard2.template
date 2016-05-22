@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- 	should display the logged in user's first name -->
+	<title>#</title>
+	<link rel="stylesheet" href="http://www.cs.mcgill.ca/~yli205/main.css" charset="utf-8">
+	<style type="text/css">
+		ul li {
+				list-style: none;
+			}
+
+		textarea {
+			width: 400px;
+			height: 50px;
+			display: inline-block;
+			margin: 2% auto 2% 10%;
+		}
+
+
+		button.link {
+			text-decoration: none;
+			font-size: 1rem;
+			text-align: left;
+			color: rgb(0, 0, 0);
+			background: inherit;
+			width: 150px;
+			border: none;
+		}
+
+		button {
+			width: 50px;
+			height: 30px;
+			border-radius: 10%;
+		}
+		button.link:hover {
+			text-decoration: underline;
+			color: rgb(85, 85, 85);
+		}
+
+
+
+
+	</style>
+</head>
+<body>
+<div class="wrapper">
+	<h1 class="top">My Dashboard</h1>
+
+	<div class="menu">
+		<ul>
+			<li><a href="http://www.cs.mcgill.ca/~yli205/index.html">logout</a></li>
+			<li><form method="get" action="http://cgi.cs.mcgill.ca/~yli205/cgi-bin/makefriends.py"><input type="hidden" name="username" value="#"><button class="link" type="submit">make new friends</button></form></li>
+			<li><form method="post" action="http://www.cs.mcgill.ca/~jliu164/cgi-bin/seefriends.cgi"><input type="hidden" name="username" value="#"><button class="link" type="submit">see friends</button></form></li>
+		</ul>
+	</div>
+
+	<div class="dash-main">
+
+
+	@
+
+
+
+		<form name="status" method="get" action="http://cgi.cs.mcgill.ca/~yli205/cgi-bin/newstatusmathieu.py">
+			<input type="hidden" name="username" value="#">
+			<input type="textarea" name="status" placeholder="Enter your new status: ">
+			<button type="submit">Post</button>
+			
+		</form>
+
+	</div>
+
+
+
+
+</div>
+
+
+
+
+
+<div class="footer">
+	<p>Created by: PandaHuggers  &copy;</p>
+</div>
+</body>
+</html>

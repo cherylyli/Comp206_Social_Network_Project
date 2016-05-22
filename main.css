@@ -1,0 +1,195 @@
+/************************
+full page layout
+************************/
+body {
+	background-image: url('http://ab-wallpaper.com/wp-content/uploads/Bamboo-Wallpaper-03.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center-top;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	min-height: 100vh;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+img {
+	width: 300px;
+	border-radius: 10px;
+}
+
+.wrapper {
+	min-height: 95vh;
+	margin: 0 8%;
+	padding-top: 1%;
+	padding-bottom: 5%;
+	background-color: white;
+	opacity: 0.86;
+}
+
+button {
+	height: 50px;
+	width: 150px;
+	border-radius: 5px;
+	padding: 0;
+	margin: 2% 0 0 0;
+	display: inline-block;
+	font-size: 1.3rem;
+}
+
+.hidden {
+	display: none;
+}
+
+
+
+
+/************************
+text styles
+************************/
+li {
+	font-size: 0.9rem;
+	text-decoration: none;
+	text-align: left;
+	width: 90%;
+	margin: auto;
+	padding: auto;
+	line-height: 2.0em;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #555;
+}
+
+h1 {
+	text-align: center;
+	border-top: 30px;
+	text-shadow: 2px 2px 4px #333;
+}
+
+p {
+	text-align: center;
+	padding: 2% 10%;
+}
+
+
+
+
+
+
+/************************
+specific element styling
+************************/
+.col {
+	width: 40%;
+	display: inline-block;
+	padding: 0 5%;
+	margin: 0;
+	text-align: left;
+	text-align: top;
+	line-height: 2rem;
+}
+
+
+.top {
+	border-bottom: 2px dashed #ccc;
+}
+
+
+
+
+/************************
+footer styling
+************************/
+.footer {
+	font-size: 0.9rem;
+	margin: 0 8%;
+	padding: 0;
+	background-color: white;
+	border-top: 1px dashed #ccc;
+}
+
+.footer p {
+	margin: 0;
+	padding: 1.5% 0 1.5% 0;
+}
+
+
+
+/************************
+index.html styling
+************************/
+.signin {
+	margin: 20% 20% 20%;
+	font-size: 2.0rem;
+}
+
+
+
+/************************
+form.html styling
+************************/
+.form {
+	margin-top: 5%;
+}
+
+input[type="textarea"] {
+	width: 200px;
+	height: 50px;
+}
+
+
+
+/************************
+dashboard.html styling
+************************/
+.menu {
+	display: inline-block;
+	width: 20%;
+	float: left;
+	font-size: 0.8em;
+	border-right: 2px dashed #ccc;
+}
+
+.dash-main {
+	margin-left: 22%;
+	text-align: left;
+}
+
+div.status span {
+	border-left: 2px solid #ccc;
+	padding-left: 4px;
+}
+
+p.post-origin {
+	text-align: right;
+}
+
+.status {
+	border-top: 0.5px dashed #ccc;
+	padding: 1% 2%;
+}
+
+.status:nth-child(1){
+	border-top: none;
+}
+
+
+/************************
+footer styling
+************************/
+
+ul.prettyfriends {
+	margin: 0 37%;
+}
